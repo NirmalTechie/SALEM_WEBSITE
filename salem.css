@@ -1,0 +1,694 @@
+        *
+        {
+                padding:0px;
+                margin:0px;
+                box-sizing: border-box;
+        }
+   .continer
+   {
+      width:100%;
+/*      height:1500px;*/
+/*      font-family:sans-serif;*/
+   }
+
+                                  /*   top content starting*/
+   .top
+   {
+        width:100%;
+        height:40px;
+/*      background:rebeccapurple;*/
+        padding:0px 0px 0px 28px;
+        border:1px solid lightgray;
+        font-size:13px;
+        border-collapse:collapse;
+   }
+   .top1
+   {
+        width:10.9%;
+        height:40px;
+        text-align:center;
+        float:left;
+        border-left:1px solid lightgray;
+    
+   }
+   .top1:hover,.top2:hover,.top3:hover,.top5:hover
+   {
+      background-color:black;
+      color:white;
+   }
+   .top4 a:hover
+   {
+    background-color:black;
+      color:white;    
+   }
+   .top1 p
+   {
+     padding:7px 0px;
+   }
+  .top3 p
+   {
+     padding:10px 0px;
+   }
+   .top2
+   {
+        width:51%;
+        height:40px;
+        text-align:center;
+        float:left;
+        border-left:1px solid lightgray;
+        padding:10px 470px 0px 0px;
+        color:grey;
+   }
+   .top3
+   {
+        width:14%;
+        height:40px;
+        text-align:center;
+        float:left;
+        border-left:1px solid lightgray;
+   }
+
+    .top4
+   {
+    width:4%;
+    height:40px;
+    text-align:center;
+    float:left;
+    border-left:1px solid lightgray;
+/*    background-color:grey;*/
+    padding-top:5px;
+   }
+   .top5
+   {
+    width:6%;
+    height:40px;
+    text-align:center;
+    float:left;
+    border-left:1px solid lightgray;
+    border-right:1px solid lightgray ;
+    padding:10px 0px 0px 0px;
+/*     background-color:grey;*/
+   }
+
+                                         /*top content ending*/
+
+                                           /*logo starting*/
+   .logo
+   {
+    width:100%;
+    height:125px;
+/*    background-color: yellow;*/
+    padding:4.5px 0px 0px 40px;
+   }
+   .logo1
+   {
+    width:7.7%;
+    height:120px;
+    float:left;
+   }
+   .logo2
+   {
+    width:76%;
+    height:120px;
+    float:left;
+    padding:16px 0px 0px 20px;
+/*    font-size:18px;*/
+   }
+   .logo3
+   {
+    width:16%;
+    height:120px;
+    float:left;
+   }
+                                            /*logo ending*/
+
+                                           /*menu starting*/
+   
+   .menu
+    {
+      width:100%;
+      height:42px;
+      border-top:1px solid lightgray;
+      border-bottom:1px solid lightgray;
+      padding-left:27px;
+/*      background-color:yellow;*/
+    }
+    .menu1
+     {
+      width:90%;
+      height:42px;
+/*      background-color:yellow;*/
+      float:left;
+     }
+     .menu2
+     {
+      width:8%;
+      height:42px;
+/*      background-color:darkred;*/
+      float:left;
+      }
+
+    .dropdown
+    {
+      display:flex;
+      list-style-type:none;
+      float:left;
+    }
+    .dropdown a 
+    {
+      display:inline-block;
+      width:132.2px;
+      color:black;
+      padding:12px 0px;
+      text-decoration:none;
+      text-align:center;
+      font-size:14px;
+    }
+   .dropdown a:hover
+    {
+      background-color:#9e6b22;
+      color:white;
+    }
+    .menu2:hover
+    {
+      background-color:#9e6b22;
+      color:white; 
+    }
+    .dropdown1
+    {
+      display:none;
+      list-style-type:none;
+      background-color:#f3b45b;
+      position:absolute;
+      z-index:1;
+      width: 250px;
+      
+
+    }
+    .dropdown1 li a
+    {
+        text-align: left;
+        padding: 10px 10px;
+width: 100%;
+    }
+    .dropdown li:nth-child(1):hover .dropdown1
+    {
+      display:block;
+    }
+
+                                                    /*menu ending*/
+
+                                                   /*banner starting*/
+    .banner 
+    {
+        width:100%;
+        height:373px;
+        position:relative;
+    }
+    .banner1
+    {
+      width:100%;
+      height:50px;
+      background-color:#9e6b22;
+      color:white;
+      font-size:30px;
+      text-align:center;
+      padding-top:6px;
+      position:absolute;
+      opacity:0.9;
+      top:530.5px;
+      font-weight:bold;
+    }
+
+                                            /*banner ending*/
+
+                                           /*marquee starting*/
+    .marquee
+    {
+      width:100%;
+      height:80px;     
+    }
+    .marquee1
+    {
+      width:93%;
+      height:80px;
+      padding-top:30px;
+      font-size:20px;
+      float:left;
+      margin-left:45px;
+      font-weight:bold;
+    }
+                                            /*marquee ending*/
+
+                                            /*about starting*/
+    .about
+    {
+      width:100%;
+      height:440px;
+      background-color:#e5e5e5;
+    }
+    .about1
+    {
+      width:37%;
+      height:360px;
+      background-color:white;
+      float:left;
+      margin:40px 20px 0px 20px;
+      text-align:justify;
+      font-size:18px;
+      padding:20px;
+    }
+    .about2
+    {
+      width:40%;
+      height:360px;
+      float:left;
+      margin:40px 10px 0px 10px ;
+    }
+    .navbar
+    {
+      width:100%;
+      height:40px;
+/*      background-color:yellow;*/
+    }
+    .navbar1
+    {
+      width:20%;
+      height:40px;
+      background-color:white;
+      color:#9e6b22;
+      text-align:center;
+      padding-top:10px;
+      float:left;
+    }
+     .navbar2
+    {
+      width:20%;
+      height:40px;
+/*      background-color:green;*/
+      text-align:center;
+      padding-top:13px;
+      float:left;
+      font-size:14px;
+    }
+     .navbar3
+    {
+      width:45%;
+      height:40px;
+/*      background-color:green;*/
+      text-align:center;
+      padding-top:13px;
+      float:left;
+      font-size:14px;
+    }
+    .navbar2:hover,.navbar3:hover
+    {
+      background-color:lightgray;
+    }
+    .content
+    {
+      width:100%;
+      height:305px;
+      background-color:white;
+      text-align:justify;
+    }
+    .about3
+    {
+      width:15%;
+      height:245px;
+      float:left;
+      margin:40px 0px 10px 20px;
+      background-color:white;
+      border:1px solid lightgray;
+    }
+
+    .image
+    {
+      width:85%;
+      height:122.5px;
+/*      background-color:yellow;*/
+      float:left;
+      margin:13px 0px 0px 15px;
+    }
+    .name
+    {
+      width:85%;
+      height:105px;
+/*      background-color:pink;*/
+      margin:1px 0px 0px 20px;
+      float:left;
+    }
+    button:hover
+    {
+     color:blue;
+    }
+
+                                             /*about ending*/
+
+                                           /*distric starting*/
+    .district
+    {
+      width:100%;
+      height:590px;
+      background-color:white;
+    }
+    .admin,.glance,.department
+    {
+      width:31%;
+      height:550px;
+      float:left;
+      margin:20px 15px 15px 15px;
+       background-color:#f1f1f1;
+    }
+    .admin1,.admin2,.admin3,.admin4
+    {
+      width:98.6%;
+      height:115px;
+/*      background-color:pink;*/
+      float:left;
+      margin:3px;
+    }
+    
+    .glance
+    {
+      background-color:#f1f1f1;
+      padding:10px 10px 0px 10px;
+    }
+    .department
+    {
+      padding:15px 10px 0px 10px;
+      background-color:#f1f1f1;
+      list-style: none;
+    }
+    ul li
+    {
+    list-style-type: none;
+    }
+
+    .li
+    {
+     height: 57px;
+     width: 100%;
+    }
+    .li_img
+    {
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+      border-radius: 100%;
+     }
+    .dep
+     {
+        padding-top:14px;
+     }
+
+                                           /*distric ending*/
+
+                                            /*map starting*/
+     .map
+     {
+        width:100%;
+        height:360px;
+/*        background-color:yellow;*/
+        padding-left:7px;
+     }
+     .map1
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;
+     }
+     .map2
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        padding-left:23px;
+        float:left;
+     }
+     .map3
+     {
+        width:23%;
+        height:300px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;
+     }
+  
+     .map4
+     {
+        width:23%;
+        height:345px;
+/*        background-color:pink;*/
+        margin:12px;
+        float:left;        
+     }
+      
+    ul li
+    {
+    list-style-type: none;
+    }
+
+    .list
+    {
+     height: 55px;
+     width: 100%;
+    }
+    .photo
+    {
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin-top:10px;
+      margin-right: 6px;
+      border-radius: 15%;
+     }
+    .line
+     {
+        padding-top:20px;
+     }
+
+                                            /*map ending*/
+
+                                         /*gallery starting*/
+     .gallery
+     {
+        width:100%;
+        height:800px;
+/*        background-color:yellow;*/
+     }
+     .gallery1
+     {
+        width:50%;
+        height:800px;
+        background-color:#100e32;
+        float:left;
+        padding:35px 0px 0px 40px;
+     } 
+     .box1
+     {
+        width:100%;
+        height:50px;
+/*        background-color:green;*/
+        float:left;
+     }
+     .b1
+     {
+        width:33%;
+        height:50px;
+        background-color:white;
+        float:left;
+        padding-top:5px;
+     }
+     .b2
+     {
+        width:33%;
+        height:50px;
+        background-color:#077dbb;
+        color:#d8d4cf;
+        float:left;
+         padding-top:5px;
+     }
+     .b2:hover
+     {
+        background-color:white;
+        color:black;
+     }
+     .b3
+     {
+        width:100%;
+        height:230px;
+        background-color:white;
+        float:left;
+
+     }
+     .inside
+     {
+        width:95.5%;
+        height:190px;
+        background-color:grey;
+        float:left;
+        margin:20px 0px 0px 15px;
+     }
+   .inside1
+     {
+        width:100%;
+        height:50px;
+        float:left;        
+     }
+    .inside2,.inside3,.inside4
+     {
+        width:31%;
+        height:130px;
+        float:left;
+        margin:2px 3px 10px 10px;
+     }
+
+     .gallery2
+     {
+        width:50%;
+        height:800px;
+/*        background-color:darkred;*/
+        color:white;
+        float:left;
+     } 
+     .letters1
+     {
+        width:50%;
+        height:600px;
+        background-color:#100e32;
+        padding-left:23px;
+        float:left;
+        
+     }
+     .letters1 li
+     {
+        line-height:40px;
+     }
+     .letters2
+     {
+        width:50%;
+        height:600px;
+        background-color:#100e32;
+        float:left;
+        padding-top:83px;
+     }
+     .letters2 li
+     {
+        line-height:40px;
+     }
+     
+      .letters3
+     {
+        width:50%;
+        height:200px;
+        background-color:#100e32;
+        padding-left:15px;
+        float:left;
+      }
+      .letters3 li
+     {
+        line-height:40px;
+     }
+     .letters4
+     {
+        width:50%;
+        height:200px;
+        background-color:#100e32;
+        float:left;
+        padding-top:54px;
+     }
+     .letters4 li
+     {
+        line-height:40px;
+     }
+
+                                        /*gallery ending*/
+
+                                        /*flex starting*/
+     .flex
+     {
+        width:93%;
+        height:110px;
+        margin-left:45px;
+     }
+                                           /*flex ending*/
+
+                                        /*feedback starting*/
+     .feedback
+     {
+        width:100%;
+        height:60px;
+        background-color:#111111;
+        padding-left:573px;
+        color:white;
+     }
+     .feedback1
+     {
+        width:50%;
+        height:60px;
+        background-color:#111111;
+        color:white;
+        float:left;
+     }
+     
+     .feedback1 ul li
+     {  
+        padding:20px 5px;
+        text-align:center;
+        display:inline-block;
+        list-style-type:none;
+     }
+                                           /*feedback ending*/
+
+                                        /*copyrights starting*/
+     .copyrights
+     {
+        width:100%;
+        height:120px;
+        background-color:#0c0c0c;
+        color:white;
+        padding-top:20px;
+     }
+
+                                         /*copyrights ending*/
+
+                                       /*last content starting*/
+     .last
+     {
+        width:100%;
+        height:80px;
+        background-color:#0c0c0c;
+        border-top:1px inset lightgray;
+     }
+     .last1
+     {
+        width:44%;
+        height:80px;
+/*        background-color:yellow;*/
+        padding:16px 0px 0px 550px;
+        float:left;
+     }
+     .last2
+     {
+        width:12%;
+        height:80px;
+/*        background-color:pink;*/
+        padding:16px 0px 0px 25px;
+        float:left;
+        border-left:1px inset lightgray;
+        border-right:1px inset lightgray;
+     }
+     .last3
+     {
+        width:44%;
+        height:80px;
+/*        background-color:darkred;*/
+        padding:16px 0px 0px 16px;
+        float:left;
+     }
+                                        /*last content ending*/
